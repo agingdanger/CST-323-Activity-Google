@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 
 class db_connector
 {
-    private $servername = "localhost";
+    private $servername = "34.68.177.186";
     private $username = "root";
     private $password = "root";
     private $dbname = "cst323activity";
