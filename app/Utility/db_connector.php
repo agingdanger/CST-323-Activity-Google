@@ -18,7 +18,7 @@ class db_connector
      */
     function getConnection()
     {
-        $connection = mysqli_connect($this->servername, $this->username, $this->password, $this->dbname, 3306);
+        $connection = mysqli_connect(null, $username, $password, $dbname, null, '/cloudsql/shod-268016:us-central1:shod');
         
         if($connection->connect_error)
         {
